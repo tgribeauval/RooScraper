@@ -1,0 +1,16 @@
+1. Main URL: https://deliveroo.fr/fr/sitemap
+
+2. For Cites = <h3 class="mbottom30">Agem</h3>
+
+3. Parse HTML: <a href="https://deliveroo.fr/fr/restaurants/agen/boe"></a>
+
+4: Go to URL
+
+5: Parse <li> class="HomeFeedGrid-a624d8e3e0959f81 (look at div structure doc for details)
+
+6: Parse tag values into variables: 
+Restaurant name: <p class="ccl-19882374e640f487 ccl-417df52a76832172 ccl-dd90031787517421 ccl-9d0a5327c911d0f3></p>"
+Rating: <span class="ccl-19882374e640f487 ccl-417df52a76832172></span>
+
+7: 
+
